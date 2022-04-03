@@ -1,6 +1,6 @@
 {
   "name": "robofriends",
-  "homepage": "https://tarirosiphatisiwe.github.io/robos",
+  "homepage": "https://tarirosiphatisiwe.github.io/robo-friends",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,7 +11,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
