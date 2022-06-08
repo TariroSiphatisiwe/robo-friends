@@ -16,7 +16,7 @@ function App(){
     useEffect(()=>{
         fetch('https://jsonplaceholder.typicode.com/users')
         .then(response=>response.json())
-        .then(users=>this.setState({robots:users}))
+        .then(users=>setRobots(users))
     },[])
     
     const [robots,setRobots]=useState([])
